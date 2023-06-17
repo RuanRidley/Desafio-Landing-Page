@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@400;600 & display =swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.Cabeçalho {
+    background-color: #303030;
+    height: 350px;
+    width: 1440px;
+    color: #FFFFFF;
+}
+
+.Titulo_Cabeçalho{
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    padding-left: 60px;
+    padding-top: 150px;
+    display: block;
+    text-align: auto;
+}
+.Texto_Cabeçalho{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 55px;
+    padding-top: 6px;
+}
+
+.secao_primaria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background: #F9F9F9;
+    height: 150px;
+    Width: 1440px;
+}
+.valores_secao_primaria{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+    padding-top: 15%;
+}
+.Texto_secao_primaria{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.secao_secundaria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #F5F5F5;
+    width: 1440px;
+    height: 600px;
+}
+.conteiner_texto_secao_secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.titulo_secao_secundaria{
+    font-family:'Inter', sans-serif;
+    font-size: 40px;
+    font-weight:500;
+}
+.texto_secao_secundaria{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    padding-top: 15px;
+        
+}
+.imagem_secao_secundaria{
+    height: 510px;
+    width: 605px;
+    border-radius: 30px;
+}
+
+.formulário{
+    background-color: #303030;
+    height: 350px;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 60px 60px;
+}
+.Titulo_forms{
+    font-family:'Inter', sans-serif;
+    font-size: 30px;
+    font-weight:300;
+    text-align: center;
+    padding-bottom: 20px;
+}
+input{
+    display: block;
+    width: 35%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid #463e3e;
+    margin-top: 10px;
+    padding-left: 10px
+}
+.btn{
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    width: 15%;
+    border-radius: 10px;
+    background-color:  #C07212;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #247BA0;
+    color: white;
+    transform: translate(-3px);
+    box-shadow: 0px 15px 20px #252020;
+    transition-duration: 0.4s;
+}
